@@ -58,28 +58,28 @@ export default function About() {
                 </motion.h3>
                 <div className="socials flex gap-2">
                   <motion.a
-                    initial={{ opacity: 0, x: -200 }}
+                    initial={{ opacity: 0, x: 200 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.7, delay: 0.7 }}
-                    href="#"
+                    transition={{ duration: 0.4, delay: 0.7 }}
+                    href="https://www.instagram.com/cascadelive/"
                     target="_blank"
                   >
                     <img src={instagram} alt="instagram" />
                   </motion.a>
                   <motion.a
-                    initial={{ opacity: 0, x: -200 }}
+                    initial={{ opacity: 0, x: 200 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.7, delay: 0.9 }}
-                    href="#"
+                    transition={{ duration: 0.4, delay: 0.9 }}
+                    href="https://soundcloud.com/ramzi911"
                     target="_blank"
                   >
                     <img src={soundcloud} alt="soundcloud" />
                   </motion.a>
                   <motion.a
-                    initial={{ opacity: 0, x: -200 }}
+                    initial={{ opacity: 0, x: 200 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.7, delay: 1.1 }}
-                    href="#"
+                    transition={{ duration: 0.4, delay: 1.1 }}
+                    href="https://www.youtube.com/@cascaderecords4122"
                     target="_blank"
                   >
                     <img src={youtube} alt="youtube" />
