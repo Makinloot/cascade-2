@@ -7,12 +7,12 @@ export default function About() {
   return (
     <section className="About" id="about-section">
       <div className="container">
-        <div className="About-wrapper my-20 flex flex-col items-center justify-center overflow-hidden">
+        <div className="About-wrapper my-10 flex flex-col items-center justify-center overflow-hidden lg:my-20">
           <motion.h1
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
-            className="font-robotoBold text-center text-3xl capitalize"
+            className="text-center font-robotoBold text-3xl capitalize"
           >
             cascade records
           </motion.h1>

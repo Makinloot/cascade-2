@@ -13,7 +13,21 @@
 html {
   background-color: black;
   color: rgb(204, 204, 204);
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
   @apply font-roboto;
+}
+
+html::-webkit-scrollbar {
+  background-color: transparent;
+  background-color: rgb(0, 0, 0);
+  width: 8px;
+  user-select: all;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #162c64;
+  border-radius: 0.5rem;
 }
 
 .container {

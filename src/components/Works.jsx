@@ -3,12 +3,12 @@ export default function Works() {
   return (
     <section className="Works" id="works-section">
       <div className="container">
-        <div className="Works-wrapper my-20 overflow-hidden">
+        <div className="Works-wrapper my-10 overflow-hidden lg:my-20">
           <motion.h1
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
-            className="font-robotoBold text-center text-3xl capitalize"
+            className="text-center font-robotoBold text-3xl capitalize"
           >
             works
           </motion.h1>
