@@ -10,7 +10,7 @@ export default function Works() {
             transition={{ duration: 0.7 }}
             className="font-robotoBold text-center text-3xl capitalize"
           >
-            cascade records
+            works
           </motion.h1>
           <motion.div
             initial={{ opacity: 0, y: 200 }}
