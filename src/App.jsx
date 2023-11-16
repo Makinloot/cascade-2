@@ -1,5 +1,11 @@
+import About from "./components/About";
+
 function App() {
-  return <div className="my-1 bg-red-200 p-2 px-1">Helloo cascade</div>;
+  return (
+    <div className="App">
+      <About />
+    </div>
+  );
 }
 
 export default App;
