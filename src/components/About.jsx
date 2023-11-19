@@ -21,7 +21,7 @@ export default function About() {
               initial={{ opacity: 0, x: -500 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, delay: 0.5 }}
-              className=""
+              className="self-center"
             >
               <img
                 className="w-full max-w-[350px] rounded-lg"
