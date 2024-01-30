@@ -10,7 +10,7 @@ const YoutubeWorks = () => {
           transition={{ duration: 0.7 }}
           className="mb-4 text-center font-robotoBold text-3xl capitalize"
         >
-          works
+          latest works
         </motion.h1>
         <div className="Youtube-works-wrapper grid grid-cols-2 gap-5">
           <YoutubeVideo embedId={"pGoKgVCFvaw"} />
