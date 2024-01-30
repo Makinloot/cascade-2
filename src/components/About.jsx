@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import pfImage from "/test.png";
+import pfImage from "/hero.png";
 import instagram from "/socials/instagram.svg";
 import soundcloud from "/socials/soundcloud.svg";
 import youtube from "/socials/youtube.svg";
